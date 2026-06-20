@@ -1,0 +1,111 @@
+"tab.inbox" = "Inbox";
+"tab.today" = "Vandaag";
+"tab.plan" = "Plannen";
+"tab.review" = "Review";
+"tab.browse" = "Bladeren";
+"tab.search" = "Zoeken";
+"tab.settings" = "Instellingen";
+
+"nav.inbox" = "Inbox";
+"nav.today" = "Vandaag";
+"nav.plan" = "Plannen";
+"nav.review" = "Review";
+"nav.browse" = "Bladeren";
+"nav.search" = "Zoeken";
+"nav.settings" = "Instellingen";
+
+"common.add" = "Toevoegen";
+"common.delete" = "Verwijderen";
+"common.next" = "Volgende";
+"common.restart" = "Opnieuw";
+
+"selection.selected" = "geselecteerd";
+"selection.done" = "Klaar";
+"selection.schedule_today" = "Vandaag plannen";
+"selection.move_evening" = "Naar vanavond";
+
+"quickadd.placeholder" = "Snel toevoegen... (nieuwe regel voor meerdere)";
+"quickadd.default.today" = "Standaard: Vandaag";
+"quickadd.default.inbox" = "Standaard: Inbox";
+"quickadd.default.evening" = "Standaard: Vanavond";
+"quickadd.default.tomorrow" = "Standaard: Morgen";
+"quickadd.default.someday" = "Standaard: Ooit";
+
+"inbox.focus.title" = "Snel vastleggen, eenmalig beslissen";
+"inbox.focus.subtitle" = "Leg taken snel vast en organiseer ze later in batch.";
+"inbox.pill.items" = "items";
+"inbox.pill.overdue" = "achterstallig";
+"inbox.pill.selected" = "geselecteerd";
+"inbox.empty.title" = "Inbox is leeg";
+"inbox.empty.subtitle" = "Leg snel vast. Plan later.";
+"inbox.section.title" = "Inbox";
+
+"today.focus.title" = "Vandaag, met intentie";
+"today.focus.subtitle" = "Bouw overdag momentum op en sluit de avond helder af.";
+"today.pill.today" = "vandaag";
+"today.pill.evening" = "avond";
+"today.pill.overdue" = "achterstallig";
+"today.empty.title" = "Niets gepland voor vandaag";
+"today.empty.subtitle" = "Voeg een taak toe of verplaats iets uit Inbox.";
+"today.section.today" = "Vandaag";
+"today.section.evening" = "Vanavond";
+
+"plan.focus.title" = "Plan de volgende stappen";
+"plan.focus.subtitle" = "Houd aankomende taken zichtbaar en parkeer laag-prio werk bij Ooit.";
+"plan.pill.scheduled" = "gepland";
+"plan.pill.seven_day" = "7 dagen";
+"plan.pill.someday" = "ooit";
+"plan.empty.title" = "Geen aankomende taken";
+"plan.empty.subtitle" = "Plan wat telt. Zet de rest op Ooit.";
+"plan.section.someday" = "Ooit";
+
+"search.empty.title" = "Zoeken";
+"search.empty.subtitle.attachments" = "Zoek taken op titel, notities of bijlagen (inclusief OCR/PDF-tekst).";
+"search.empty.subtitle.basic" = "Zoek taken op titel of notities.";
+"search.no_results.title" = "Geen resultaten";
+"search.no_results.subtitle" = "Probeer andere zoekwoorden.";
+"search.section.tasks" = "Taken";
+"search.prompt" = "Taken, notities, bijlagen...";
+"search.filter.include_attachments" = "Bijlagen opnemen";
+"search.filter.include_completed" = "Voltooide opnemen";
+"search.filter.include_private" = "Prive opnemen";
+
+"browse.section.areas" = "Domeinen";
+"browse.section.projects" = "Projecten";
+"browse.section.tags" = "Tags";
+"browse.empty.areas" = "Nog geen domeinen.";
+"browse.empty.projects" = "Nog geen projecten.";
+"browse.empty.tags" = "Nog geen tags.";
+"browse.new.area" = "Nieuw domein";
+"browse.new.project" = "Nieuw project";
+"browse.new.tag" = "Nieuwe tag";
+
+"review.step.overdue" = "Achterstallig";
+"review.step.stale_inbox" = "Verouderde Inbox";
+"review.step.needs_project" = "Inbox: project toewijzen";
+"review.step.needs_tags" = "Zonder tags";
+"review.step.done" = "Alles in orde";
+"review.empty.overdue" = "Geen achterstallige taken.";
+"review.empty.stale_inbox" = "Niets verouderds in Inbox.";
+"review.empty.needs_project" = "Inbox is georganiseerd.";
+"review.empty.needs_tags" = "Alles heeft tags.";
+"review.empty.done" = "Review voltooid.";
+
+"settings.remove_ads.title" = "Advertenties verwijderen";
+"settings.remove_ads.active" = "Advertenties zijn verwijderd voor dit account.";
+"settings.remove_ads.button" = "Advertenties verwijderen";
+"settings.remove_ads.description" = "Eenmalige aankoop. Verwijdert alle banner- en interstitialadvertenties.";
+"settings.restore_purchases" = "Aankopen herstellen";
+
+"purchases.status.load_failed" = "Kon aankoopopties niet laden.";
+"purchases.status.unavailable" = "Advertenties verwijderen is nog niet beschikbaar.";
+"purchases.status.success" = "Advertenties succesvol verwijderd.";
+"purchases.status.completed" = "Aankoop voltooid.";
+"purchases.status.cancelled" = "Aankoop geannuleerd.";
+"purchases.status.pending" = "Aankoop wacht op goedkeuring.";
+"purchases.status.unknown" = "Onbekende aankoopstatus.";
+"purchases.status.failed" = "Aankoop mislukt. Probeer opnieuw.";
+"purchases.status.restored" = "Aankopen hersteld.";
+"purchases.status.none_to_restore" = "Geen aankopen om te herstellen.";
+"purchases.status.restore_failed" = "Herstellen mislukt. Probeer opnieuw.";
+"purchases.status.verify_failed" = "Kon een aankoopupdate niet verifieren.";

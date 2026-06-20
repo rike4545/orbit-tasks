@@ -1,0 +1,121 @@
+"tab.inbox" = "Inbox";
+"tab.today" = "Today";
+"tab.plan" = "Plan";
+"tab.review" = "Review";
+"tab.browse" = "Browse";
+"tab.search" = "Search";
+"tab.settings" = "Settings";
+
+"nav.inbox" = "Inbox";
+"nav.today" = "Today";
+"nav.plan" = "Plan";
+"nav.review" = "Review";
+"nav.browse" = "Browse";
+"nav.search" = "Search";
+"nav.settings" = "Settings";
+
+"common.add" = "Add";
+"common.delete" = "Delete";
+"common.next" = "Next";
+"common.restart" = "Restart";
+
+"selection.selected" = "selected";
+"selection.done" = "Done";
+"selection.schedule_today" = "Schedule Today";
+"selection.move_evening" = "Move to Evening";
+
+"quickadd.placeholder" = "Quick add… (newline for multiple)";
+"quickadd.default.today" = "Default to Today";
+"quickadd.default.inbox" = "Default to Inbox";
+"quickadd.default.evening" = "Default to Evening";
+"quickadd.default.tomorrow" = "Default to Tomorrow";
+"quickadd.default.someday" = "Default to Someday";
+
+"inbox.focus.title" = "Capture Fast, Decide Once";
+"inbox.focus.subtitle" = "Drop tasks quickly, then batch-organize when you have focus.";
+"inbox.pill.items" = "items";
+"inbox.pill.overdue" = "overdue";
+"inbox.pill.selected" = "selected";
+"inbox.empty.title" = "Inbox is clear";
+"inbox.empty.subtitle" = "Capture tasks fast. Plan later.";
+"inbox.section.title" = "Inbox";
+
+"today.focus.title" = "Today, Intentionally";
+"today.focus.subtitle" = "Focus on daytime momentum, then close your evening with clarity.";
+"today.pill.today" = "today";
+"today.pill.evening" = "evening";
+"today.pill.overdue" = "overdue";
+"today.empty.title" = "Nothing scheduled today";
+"today.empty.subtitle" = "Add a task, or move something from Inbox.";
+"today.section.today" = "Today";
+"today.section.evening" = "This Evening";
+
+"plan.focus.title" = "Plan the Next Moves";
+"plan.focus.subtitle" = "Keep upcoming commitments visible and park low-priority work in Someday.";
+"plan.pill.scheduled" = "planned";
+"plan.pill.seven_day" = "7-day";
+"plan.pill.deadlines" = "deadlines";
+"plan.pill.someday" = "someday";
+"plan.empty.title" = "No upcoming tasks";
+"plan.empty.subtitle" = "Schedule what matters. Keep the rest in Someday.";
+"plan.section.someday" = "Someday";
+
+"search.empty.title" = "Search";
+"search.empty.subtitle.attachments" = "Find tasks by title, notes, or attachments (including OCR/PDF text).";
+"search.empty.subtitle.basic" = "Find tasks by title or notes.";
+"search.no_results.title" = "No results";
+"search.no_results.subtitle" = "Try different keywords.";
+"search.section.tasks" = "Tasks";
+"search.section.projects" = "Projects";
+"search.section.areas" = "Areas";
+"search.section.tags" = "Tags";
+"search.no_matching_tasks" = "No matching tasks.";
+"search.prompt" = "Tasks, notes, attachments…";
+"search.filter.include_attachments" = "Include Attachments";
+"search.filter.include_completed" = "Include Completed";
+"search.filter.include_private" = "Include Private";
+
+"browse.section.areas" = "Areas";
+"browse.section.history" = "History";
+"browse.section.lists" = "Lists";
+"browse.section.projects" = "Projects";
+"browse.section.tags" = "Tags";
+"browse.empty.areas" = "No areas yet.";
+"browse.empty.projects" = "No projects yet.";
+"browse.empty.tags" = "No tags yet.";
+"browse.anytime" = "Anytime";
+"browse.someday" = "Someday";
+"browse.logbook" = "Logbook";
+"browse.new.area" = "New Area";
+"browse.new.project" = "New Project";
+"browse.new.tag" = "New Tag";
+
+"review.step.overdue" = "Overdue";
+"review.step.stale_inbox" = "Stale Inbox";
+"review.step.needs_project" = "Inbox: assign project";
+"review.step.needs_tags" = "Untagged";
+"review.step.done" = "All clear";
+"review.empty.overdue" = "No overdue tasks. Nice.";
+"review.empty.stale_inbox" = "Nothing stale in Inbox.";
+"review.empty.needs_project" = "Inbox is organized.";
+"review.empty.needs_tags" = "Everything is tagged.";
+"review.empty.done" = "Review complete.";
+
+"settings.remove_ads.title" = "Remove Ads";
+"settings.remove_ads.active" = "Ads are removed on this account.";
+"settings.remove_ads.button" = "Remove Ads";
+"settings.remove_ads.description" = "One-time purchase. This removes all banner and interstitial ads.";
+"settings.restore_purchases" = "Restore Purchases";
+
+"purchases.status.load_failed" = "Couldn’t load purchase options.";
+"purchases.status.unavailable" = "Remove Ads is not available yet.";
+"purchases.status.success" = "Ads removed successfully.";
+"purchases.status.completed" = "Purchase completed.";
+"purchases.status.cancelled" = "Purchase cancelled.";
+"purchases.status.pending" = "Purchase is pending approval.";
+"purchases.status.unknown" = "Purchase status unknown.";
+"purchases.status.failed" = "Purchase failed. Please try again.";
+"purchases.status.restored" = "Purchases restored.";
+"purchases.status.none_to_restore" = "No purchases to restore.";
+"purchases.status.restore_failed" = "Restore failed. Please try again.";
+"purchases.status.verify_failed" = "Couldn’t verify a purchase update.";

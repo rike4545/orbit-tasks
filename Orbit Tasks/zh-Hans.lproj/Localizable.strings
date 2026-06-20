@@ -1,0 +1,111 @@
+"tab.inbox" = "收件箱";
+"tab.today" = "今天";
+"tab.plan" = "计划";
+"tab.review" = "回顾";
+"tab.browse" = "浏览";
+"tab.search" = "搜索";
+"tab.settings" = "设置";
+
+"nav.inbox" = "收件箱";
+"nav.today" = "今天";
+"nav.plan" = "计划";
+"nav.review" = "回顾";
+"nav.browse" = "浏览";
+"nav.search" = "搜索";
+"nav.settings" = "设置";
+
+"common.add" = "添加";
+"common.delete" = "删除";
+"common.next" = "下一步";
+"common.restart" = "重新开始";
+
+"selection.selected" = "已选";
+"selection.done" = "完成";
+"selection.schedule_today" = "安排到今天";
+"selection.move_evening" = "移到今晚";
+
+"quickadd.placeholder" = "快速添加…（换行可添加多个）";
+"quickadd.default.today" = "默认到今天";
+"quickadd.default.inbox" = "默认到收件箱";
+"quickadd.default.evening" = "默认到今晚";
+"quickadd.default.tomorrow" = "默认到明天";
+"quickadd.default.someday" = "默认到以后";
+
+"inbox.focus.title" = "快速收集，一次整理";
+"inbox.focus.subtitle" = "先快速记录任务，再在专注时批量整理。";
+"inbox.pill.items" = "项";
+"inbox.pill.overdue" = "逾期";
+"inbox.pill.selected" = "已选";
+"inbox.empty.title" = "收件箱已清空";
+"inbox.empty.subtitle" = "先快速记录，稍后规划。";
+"inbox.section.title" = "收件箱";
+
+"today.focus.title" = "有意识地安排今天";
+"today.focus.subtitle" = "白天专注推进，晚上清晰收尾。";
+"today.pill.today" = "今天";
+"today.pill.evening" = "今晚";
+"today.pill.overdue" = "逾期";
+"today.empty.title" = "今天没有已安排任务";
+"today.empty.subtitle" = "添加任务，或从收件箱移动过来。";
+"today.section.today" = "今天";
+"today.section.evening" = "今晚";
+
+"plan.focus.title" = "规划下一步";
+"plan.focus.subtitle" = "让近期承诺一目了然，把低优先级任务放到“以后”。";
+"plan.pill.scheduled" = "已安排";
+"plan.pill.seven_day" = "7天";
+"plan.pill.someday" = "以后";
+"plan.empty.title" = "暂无近期任务";
+"plan.empty.subtitle" = "安排重要事项，其余放到“以后”。";
+"plan.section.someday" = "以后";
+
+"search.empty.title" = "搜索";
+"search.empty.subtitle.attachments" = "按标题、备注或附件（含 OCR/PDF 文本）查找任务。";
+"search.empty.subtitle.basic" = "按标题或备注查找任务。";
+"search.no_results.title" = "没有结果";
+"search.no_results.subtitle" = "试试其他关键词。";
+"search.section.tasks" = "任务";
+"search.prompt" = "任务、备注、附件…";
+"search.filter.include_attachments" = "包含附件";
+"search.filter.include_completed" = "包含已完成";
+"search.filter.include_private" = "包含私密";
+
+"browse.section.areas" = "领域";
+"browse.section.projects" = "项目";
+"browse.section.tags" = "标签";
+"browse.empty.areas" = "还没有领域。";
+"browse.empty.projects" = "还没有项目。";
+"browse.empty.tags" = "还没有标签。";
+"browse.new.area" = "新建领域";
+"browse.new.project" = "新建项目";
+"browse.new.tag" = "新建标签";
+
+"review.step.overdue" = "逾期";
+"review.step.stale_inbox" = "过旧收件箱";
+"review.step.needs_project" = "收件箱：分配项目";
+"review.step.needs_tags" = "未打标签";
+"review.step.done" = "全部清理";
+"review.empty.overdue" = "没有逾期任务。";
+"review.empty.stale_inbox" = "收件箱没有过旧条目。";
+"review.empty.needs_project" = "收件箱已整理。";
+"review.empty.needs_tags" = "所有任务都已打标签。";
+"review.empty.done" = "回顾完成。";
+
+"settings.remove_ads.title" = "移除广告";
+"settings.remove_ads.active" = "此账号已移除广告。";
+"settings.remove_ads.button" = "移除广告";
+"settings.remove_ads.description" = "一次性购买。将移除所有横幅和插页广告。";
+"settings.restore_purchases" = "恢复购买";
+
+"purchases.status.load_failed" = "无法加载购买选项。";
+"purchases.status.unavailable" = "“移除广告”暂不可用。";
+"purchases.status.success" = "广告已成功移除。";
+"purchases.status.completed" = "购买已完成。";
+"purchases.status.cancelled" = "购买已取消。";
+"purchases.status.pending" = "购买等待批准。";
+"purchases.status.unknown" = "购买状态未知。";
+"purchases.status.failed" = "购买失败，请重试。";
+"purchases.status.restored" = "购买已恢复。";
+"purchases.status.none_to_restore" = "没有可恢复的购买。";
+"purchases.status.restore_failed" = "恢复失败，请重试。";
+"purchases.status.verify_failed" = "无法验证购买更新。";

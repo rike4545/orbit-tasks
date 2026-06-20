@@ -1,0 +1,111 @@
+"tab.inbox" = "收件匣";
+"tab.today" = "今天";
+"tab.plan" = "規劃";
+"tab.review" = "檢視";
+"tab.browse" = "瀏覽";
+"tab.search" = "搜尋";
+"tab.settings" = "設定";
+
+"nav.inbox" = "收件匣";
+"nav.today" = "今天";
+"nav.plan" = "規劃";
+"nav.review" = "檢視";
+"nav.browse" = "瀏覽";
+"nav.search" = "搜尋";
+"nav.settings" = "設定";
+
+"common.add" = "新增";
+"common.delete" = "刪除";
+"common.next" = "下一步";
+"common.restart" = "重新開始";
+
+"selection.selected" = "已選取";
+"selection.done" = "完成";
+"selection.schedule_today" = "安排到今天";
+"selection.move_evening" = "移到今晚";
+
+"quickadd.placeholder" = "快速新增...（換行可新增多筆）";
+"quickadd.default.today" = "預設：今天";
+"quickadd.default.inbox" = "預設：收件匣";
+"quickadd.default.evening" = "預設：今晚";
+"quickadd.default.tomorrow" = "預設：明天";
+"quickadd.default.someday" = "預設：未來某天";
+
+"inbox.focus.title" = "快速收集，一次決策";
+"inbox.focus.subtitle" = "先快速記下任務，之後再集中整理。";
+"inbox.pill.items" = "項目";
+"inbox.pill.overdue" = "逾期";
+"inbox.pill.selected" = "已選取";
+"inbox.empty.title" = "收件匣已清空";
+"inbox.empty.subtitle" = "先快速記錄，稍後再規劃。";
+"inbox.section.title" = "收件匣";
+
+"today.focus.title" = "今天，專注執行";
+"today.focus.subtitle" = "白天維持節奏，晚上清楚收尾。";
+"today.pill.today" = "今天";
+"today.pill.evening" = "今晚";
+"today.pill.overdue" = "逾期";
+"today.empty.title" = "今天沒有已排程任務";
+"today.empty.subtitle" = "新增任務，或從收件匣移入。";
+"today.section.today" = "今天";
+"today.section.evening" = "今晚";
+
+"plan.focus.title" = "規劃下一步";
+"plan.focus.subtitle" = "讓近期承諾清楚可見，低優先事項先放到未來某天。";
+"plan.pill.scheduled" = "已排程";
+"plan.pill.seven_day" = "7 天";
+"plan.pill.someday" = "未來某天";
+"plan.empty.title" = "沒有即將到來的任務";
+"plan.empty.subtitle" = "先排重要事項，其餘放到未來某天。";
+"plan.section.someday" = "未來某天";
+
+"search.empty.title" = "搜尋";
+"search.empty.subtitle.attachments" = "可依標題、備註或附件搜尋（含 OCR/PDF 文字）。";
+"search.empty.subtitle.basic" = "可依標題或備註搜尋。";
+"search.no_results.title" = "沒有結果";
+"search.no_results.subtitle" = "試試其他關鍵字。";
+"search.section.tasks" = "任務";
+"search.prompt" = "任務、備註、附件...";
+"search.filter.include_attachments" = "包含附件";
+"search.filter.include_completed" = "包含已完成";
+"search.filter.include_private" = "包含私人項目";
+
+"browse.section.areas" = "領域";
+"browse.section.projects" = "專案";
+"browse.section.tags" = "標籤";
+"browse.empty.areas" = "尚無領域。";
+"browse.empty.projects" = "尚無專案。";
+"browse.empty.tags" = "尚無標籤。";
+"browse.new.area" = "新增領域";
+"browse.new.project" = "新增專案";
+"browse.new.tag" = "新增標籤";
+
+"review.step.overdue" = "逾期";
+"review.step.stale_inbox" = "收件匣堆積";
+"review.step.needs_project" = "收件匣：指派專案";
+"review.step.needs_tags" = "未加標籤";
+"review.step.done" = "全部完成";
+"review.empty.overdue" = "沒有逾期任務。";
+"review.empty.stale_inbox" = "收件匣沒有滯留項目。";
+"review.empty.needs_project" = "收件匣已整理完成。";
+"review.empty.needs_tags" = "所有任務都已有標籤。";
+"review.empty.done" = "檢視完成。";
+
+"settings.remove_ads.title" = "移除廣告";
+"settings.remove_ads.active" = "此帳號已移除廣告。";
+"settings.remove_ads.button" = "移除廣告";
+"settings.remove_ads.description" = "一次性購買，可移除所有橫幅與插頁廣告。";
+"settings.restore_purchases" = "恢復購買";
+
+"purchases.status.load_failed" = "無法載入購買選項。";
+"purchases.status.unavailable" = "目前尚無法使用移除廣告。";
+"purchases.status.success" = "已成功移除廣告。";
+"purchases.status.completed" = "購買完成。";
+"purchases.status.cancelled" = "購買已取消。";
+"purchases.status.pending" = "購買等待核准中。";
+"purchases.status.unknown" = "購買狀態未知。";
+"purchases.status.failed" = "購買失敗，請再試一次。";
+"purchases.status.restored" = "已恢復購買。";
+"purchases.status.none_to_restore" = "沒有可恢復的購買。";
+"purchases.status.restore_failed" = "恢復失敗，請再試一次。";
+"purchases.status.verify_failed" = "無法驗證購買更新。";

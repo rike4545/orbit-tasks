@@ -1,0 +1,22 @@
+.DS_Store
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local configuration and secrets
+*.xcconfig.local
+.env
+.env.*
+!.env.example

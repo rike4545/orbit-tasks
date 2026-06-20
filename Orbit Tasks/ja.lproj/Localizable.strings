@@ -1,0 +1,111 @@
+"tab.inbox" = "受信箱";
+"tab.today" = "今日";
+"tab.plan" = "計画";
+"tab.review" = "レビュー";
+"tab.browse" = "参照";
+"tab.search" = "検索";
+"tab.settings" = "設定";
+
+"nav.inbox" = "受信箱";
+"nav.today" = "今日";
+"nav.plan" = "計画";
+"nav.review" = "レビュー";
+"nav.browse" = "参照";
+"nav.search" = "検索";
+"nav.settings" = "設定";
+
+"common.add" = "追加";
+"common.delete" = "削除";
+"common.next" = "次へ";
+"common.restart" = "やり直し";
+
+"selection.selected" = "選択中";
+"selection.done" = "完了";
+"selection.schedule_today" = "今日に予定";
+"selection.move_evening" = "今夜に移動";
+
+"quickadd.placeholder" = "クイック追加…（改行で複数）";
+"quickadd.default.today" = "デフォルトは今日";
+"quickadd.default.inbox" = "デフォルトは受信箱";
+"quickadd.default.evening" = "デフォルトは今夜";
+"quickadd.default.tomorrow" = "デフォルトは明日";
+"quickadd.default.someday" = "デフォルトはいつか";
+
+"inbox.focus.title" = "すばやく取り込み、あとで整理";
+"inbox.focus.subtitle" = "タスクを素早く追加し、集中できる時にまとめて整理します。";
+"inbox.pill.items" = "件";
+"inbox.pill.overdue" = "期限超過";
+"inbox.pill.selected" = "選択中";
+"inbox.empty.title" = "受信箱は空です";
+"inbox.empty.subtitle" = "まずは素早く追加。整理は後で。";
+"inbox.section.title" = "受信箱";
+
+"today.focus.title" = "意図を持って今日を進める";
+"today.focus.subtitle" = "日中に前進し、夜は明確に締めくくりましょう。";
+"today.pill.today" = "今日";
+"today.pill.evening" = "今夜";
+"today.pill.overdue" = "期限超過";
+"today.empty.title" = "今日の予定はありません";
+"today.empty.subtitle" = "タスクを追加するか、受信箱から移動しましょう。";
+"today.section.today" = "今日";
+"today.section.evening" = "今夜";
+
+"plan.focus.title" = "次の一手を計画";
+"plan.focus.subtitle" = "近い予定を見える化し、優先度の低いものは「いつか」に置きます。";
+"plan.pill.scheduled" = "予定あり";
+"plan.pill.seven_day" = "7日間";
+"plan.pill.someday" = "いつか";
+"plan.empty.title" = "今後のタスクはありません";
+"plan.empty.subtitle" = "重要なものを予定し、残りは「いつか」に。";
+"plan.section.someday" = "いつか";
+
+"search.empty.title" = "検索";
+"search.empty.subtitle.attachments" = "タイトル、メモ、添付（OCR/PDFテキスト含む）からタスクを検索します。";
+"search.empty.subtitle.basic" = "タイトルまたはメモからタスクを検索します。";
+"search.no_results.title" = "結果がありません";
+"search.no_results.subtitle" = "別のキーワードを試してください。";
+"search.section.tasks" = "タスク";
+"search.prompt" = "タスク、メモ、添付…";
+"search.filter.include_attachments" = "添付を含む";
+"search.filter.include_completed" = "完了済みを含む";
+"search.filter.include_private" = "プライベートを含む";
+
+"browse.section.areas" = "領域";
+"browse.section.projects" = "プロジェクト";
+"browse.section.tags" = "タグ";
+"browse.empty.areas" = "領域はまだありません。";
+"browse.empty.projects" = "プロジェクトはまだありません。";
+"browse.empty.tags" = "タグはまだありません。";
+"browse.new.area" = "新しい領域";
+"browse.new.project" = "新しいプロジェクト";
+"browse.new.tag" = "新しいタグ";
+
+"review.step.overdue" = "期限超過";
+"review.step.stale_inbox" = "古い受信箱";
+"review.step.needs_project" = "受信箱: プロジェクトを割り当て";
+"review.step.needs_tags" = "タグなし";
+"review.step.done" = "完了";
+"review.empty.overdue" = "期限超過のタスクはありません。";
+"review.empty.stale_inbox" = "受信箱に古い項目はありません。";
+"review.empty.needs_project" = "受信箱は整理されています。";
+"review.empty.needs_tags" = "すべてにタグがあります。";
+"review.empty.done" = "レビュー完了。";
+
+"settings.remove_ads.title" = "広告を削除";
+"settings.remove_ads.active" = "このアカウントでは広告が削除されています。";
+"settings.remove_ads.button" = "広告を削除";
+"settings.remove_ads.description" = "買い切りです。バナー広告とインタースティシャル広告をすべて削除します。";
+"settings.restore_purchases" = "購入を復元";
+
+"purchases.status.load_failed" = "購入オプションを読み込めませんでした。";
+"purchases.status.unavailable" = "「広告を削除」はまだ利用できません。";
+"purchases.status.success" = "広告を削除しました。";
+"purchases.status.completed" = "購入が完了しました。";
+"purchases.status.cancelled" = "購入はキャンセルされました。";
+"purchases.status.pending" = "購入は承認待ちです。";
+"purchases.status.unknown" = "購入状態が不明です。";
+"purchases.status.failed" = "購入に失敗しました。もう一度お試しください。";
+"purchases.status.restored" = "購入を復元しました。";
+"purchases.status.none_to_restore" = "復元する購入がありません。";
+"purchases.status.restore_failed" = "復元に失敗しました。もう一度お試しください。";
+"purchases.status.verify_failed" = "購入更新を確認できませんでした。";

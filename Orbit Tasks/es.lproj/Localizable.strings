@@ -1,0 +1,111 @@
+"tab.inbox" = "Bandeja";
+"tab.today" = "Hoy";
+"tab.plan" = "Plan";
+"tab.review" = "Revisar";
+"tab.browse" = "Explorar";
+"tab.search" = "Buscar";
+"tab.settings" = "Ajustes";
+
+"nav.inbox" = "Bandeja";
+"nav.today" = "Hoy";
+"nav.plan" = "Plan";
+"nav.review" = "Revisar";
+"nav.browse" = "Explorar";
+"nav.search" = "Buscar";
+"nav.settings" = "Ajustes";
+
+"common.add" = "Añadir";
+"common.delete" = "Eliminar";
+"common.next" = "Siguiente";
+"common.restart" = "Reiniciar";
+
+"selection.selected" = "seleccionados";
+"selection.done" = "Hecho";
+"selection.schedule_today" = "Programar hoy";
+"selection.move_evening" = "Mover a la tarde";
+
+"quickadd.placeholder" = "Añadir rápido… (nueva línea para varios)";
+"quickadd.default.today" = "Por defecto: Hoy";
+"quickadd.default.inbox" = "Por defecto: Bandeja";
+"quickadd.default.evening" = "Por defecto: Tarde";
+"quickadd.default.tomorrow" = "Por defecto: Mañana";
+"quickadd.default.someday" = "Por defecto: Algún día";
+
+"inbox.focus.title" = "Captura rápido, decide una vez";
+"inbox.focus.subtitle" = "Anota tareas rápido y organízalas por lotes cuando tengas foco.";
+"inbox.pill.items" = "elementos";
+"inbox.pill.overdue" = "vencidas";
+"inbox.pill.selected" = "selecc.";
+"inbox.empty.title" = "Bandeja vacía";
+"inbox.empty.subtitle" = "Captura tareas rápido. Planifica después.";
+"inbox.section.title" = "Bandeja";
+
+"today.focus.title" = "Hoy, con intención";
+"today.focus.subtitle" = "Enfócate durante el día y cierra la tarde con claridad.";
+"today.pill.today" = "hoy";
+"today.pill.evening" = "tarde";
+"today.pill.overdue" = "vencidas";
+"today.empty.title" = "Nada programado para hoy";
+"today.empty.subtitle" = "Añade una tarea o mueve algo desde Bandeja.";
+"today.section.today" = "Hoy";
+"today.section.evening" = "Esta tarde";
+
+"plan.focus.title" = "Planifica los próximos pasos";
+"plan.focus.subtitle" = "Mantén visibles tus compromisos y guarda lo secundario en Algún día.";
+"plan.pill.scheduled" = "programadas";
+"plan.pill.seven_day" = "7 días";
+"plan.pill.someday" = "algún día";
+"plan.empty.title" = "Sin tareas próximas";
+"plan.empty.subtitle" = "Programa lo importante. El resto en Algún día.";
+"plan.section.someday" = "Algún día";
+
+"search.empty.title" = "Buscar";
+"search.empty.subtitle.attachments" = "Encuentra tareas por título, notas o adjuntos (incluye OCR/PDF).";
+"search.empty.subtitle.basic" = "Encuentra tareas por título o notas.";
+"search.no_results.title" = "Sin resultados";
+"search.no_results.subtitle" = "Prueba con otras palabras.";
+"search.section.tasks" = "Tareas";
+"search.prompt" = "Tareas, notas, adjuntos…";
+"search.filter.include_attachments" = "Incluir adjuntos";
+"search.filter.include_completed" = "Incluir completadas";
+"search.filter.include_private" = "Incluir privadas";
+
+"browse.section.areas" = "Áreas";
+"browse.section.projects" = "Proyectos";
+"browse.section.tags" = "Etiquetas";
+"browse.empty.areas" = "Aún no hay áreas.";
+"browse.empty.projects" = "Aún no hay proyectos.";
+"browse.empty.tags" = "Aún no hay etiquetas.";
+"browse.new.area" = "Nueva área";
+"browse.new.project" = "Nuevo proyecto";
+"browse.new.tag" = "Nueva etiqueta";
+
+"review.step.overdue" = "Vencidas";
+"review.step.stale_inbox" = "Bandeja estancada";
+"review.step.needs_project" = "Bandeja: asignar proyecto";
+"review.step.needs_tags" = "Sin etiquetas";
+"review.step.done" = "Todo en orden";
+"review.empty.overdue" = "No hay tareas vencidas.";
+"review.empty.stale_inbox" = "Nada estancado en Bandeja.";
+"review.empty.needs_project" = "Bandeja organizada.";
+"review.empty.needs_tags" = "Todo tiene etiquetas.";
+"review.empty.done" = "Revisión completada.";
+
+"settings.remove_ads.title" = "Quitar anuncios";
+"settings.remove_ads.active" = "Los anuncios están quitados en esta cuenta.";
+"settings.remove_ads.button" = "Quitar anuncios";
+"settings.remove_ads.description" = "Compra única. Elimina banners e intersticiales.";
+"settings.restore_purchases" = "Restaurar compras";
+
+"purchases.status.load_failed" = "No se pudieron cargar las opciones de compra.";
+"purchases.status.unavailable" = "Quitar anuncios no está disponible todavía.";
+"purchases.status.success" = "Anuncios eliminados correctamente.";
+"purchases.status.completed" = "Compra completada.";
+"purchases.status.cancelled" = "Compra cancelada.";
+"purchases.status.pending" = "La compra está pendiente de aprobación.";
+"purchases.status.unknown" = "Estado de compra desconocido.";
+"purchases.status.failed" = "La compra falló. Inténtalo de nuevo.";
+"purchases.status.restored" = "Compras restauradas.";
+"purchases.status.none_to_restore" = "No hay compras para restaurar.";
+"purchases.status.restore_failed" = "Error al restaurar. Inténtalo de nuevo.";
+"purchases.status.verify_failed" = "No se pudo verificar una actualización de compra.";
