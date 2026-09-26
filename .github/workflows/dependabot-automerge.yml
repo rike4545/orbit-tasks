@@ -1,0 +1,62 @@
+name: Dependabot Auto Merge
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    if: >
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Merge validated Dependabot patch update
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          owner="${REPO%%/*}"
+          pr_number="$(
+            gh api               -H "Accept: application/vnd.github+json"               "/repos/$REPO/pulls?state=open&head=$owner:$HEAD_BRANCH"               --jq '.[] | select(.user.login == "dependabot[bot]") | .number'               | head -n 1
+          )"
+
+          if [[ -z "$pr_number" ]]; then
+            echo "No matching Dependabot pull request."
+            exit 0
+          fi
+
+          echo "Found Dependabot PR #$pr_number"
+
+          mapfile -t changed_files < <(
+            gh pr diff "$pr_number" --repo "$REPO" --name-only
+          )
+
+          if [[ "${#changed_files[@]}" -eq 0 ]]; then
+            echo "No changed files found; refusing to merge."
+            exit 1
+          fi
+
+          for file in "${changed_files[@]}"; do
+            case "$file" in
+              "Orbit Tasks.xcodeproj/project.pbxproj" |               "Orbit Tasks.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved" |               .github/workflows/*.yml |               .github/workflows/*.yaml)
+                ;;
+              *)
+                echo "Unexpected file in dependency PR: $file"
+                echo "Leaving PR open for manual inspection."
+                exit 0
+                ;;
+            esac
+          done
+
+          gh pr merge "$pr_number"             --repo "$REPO"             --squash             --delete-branch
