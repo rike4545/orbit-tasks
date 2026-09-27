@@ -82,7 +82,7 @@ public enum OrbitListOverride: Int, CaseIterable, Codable, Hashable {
 /// Raw value uses bits 0...6 for Sun...Sat.
 public struct OrbitRecurrenceWeekdayMask: OptionSet, Codable, Hashable {
     public let rawValue: Int
-    public init(rawValue: Int) { self.rawValue = rawValue }
+    public nonisolated init(rawValue: Int) { self.rawValue = rawValue }
 
     public static let sunday    = OrbitRecurrenceWeekdayMask(rawValue: 1 << 0)
     public static let monday    = OrbitRecurrenceWeekdayMask(rawValue: 1 << 1)

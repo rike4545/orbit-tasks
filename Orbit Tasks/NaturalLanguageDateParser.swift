@@ -21,7 +21,7 @@
 
 import Foundation
 
-enum NaturalLanguageDateParser {
+nonisolated enum NaturalLanguageDateParser {
 
     struct Extraction: Sendable {
         let date: Date?
@@ -526,9 +526,6 @@ enum NaturalLanguageDateParser {
 
     private static func regionCode(from locale: Locale) -> String {
         if let region = locale.region?.identifier, !region.isEmpty {
-            return region.uppercased()
-        }
-        if let region = locale.regionCode, !region.isEmpty {
             return region.uppercased()
         }
         let pieces = locale.identifier.split(separator: "_")
