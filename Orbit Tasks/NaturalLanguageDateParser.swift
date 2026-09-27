@@ -21,7 +21,7 @@
 
 import Foundation
 
-enum NaturalLanguageDateParser {
+nonisolated enum NaturalLanguageDateParser {
 
     struct Extraction: Sendable {
         let date: Date?
