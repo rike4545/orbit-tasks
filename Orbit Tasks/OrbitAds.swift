@@ -476,27 +476,16 @@ final class OrbitInterstitialAdManager: NSObject, FullScreenContentDelegate {
 
         isLoadingInterstitial = true
 
-        InterstitialAd.load(
-            with: OrbitAdConfig.interstitialAdUnitID,
-            request: Request()
-        ) { [weak self] ad, error in
+        Task { @MainActor [weak self] in
             guard let self else { return }
 
-            Task { @MainActor in
+            do {
+                let ad = try await InterstitialAd.load(
+                    with: OrbitAdConfig.interstitialAdUnitID,
+                    request: Request()
+                )
+
                 self.isLoadingInterstitial = false
-
-                if let error {
-                    self.consecutiveLoadFailures += 1
-                    let delay = min(pow(2, Double(self.consecutiveLoadFailures)) * 2, self.maxLoadRetryDelay)
-                    self.nextLoadAllowedAt = Date().addingTimeInterval(delay)
-                    self.scheduleRetryLoad(after: delay)
-
-                    #if DEBUG
-                    print("OrbitAds: interstitial failed (attempt \(self.consecutiveLoadFailures)): \(error.localizedDescription)")
-                    #endif
-                    return
-                }
-
                 self.retryLoadTask?.cancel()
                 self.retryLoadTask = nil
                 self.consecutiveLoadFailures = 0
@@ -507,6 +496,16 @@ final class OrbitInterstitialAdManager: NSObject, FullScreenContentDelegate {
 
                 #if DEBUG
                 print("OrbitAds: interstitial loaded (\(OrbitAdConfig.interstitialAdUnitID))")
+                #endif
+            } catch {
+                self.isLoadingInterstitial = false
+                self.consecutiveLoadFailures += 1
+                let delay = min(pow(2, Double(self.consecutiveLoadFailures)) * 2, self.maxLoadRetryDelay)
+                self.nextLoadAllowedAt = Date().addingTimeInterval(delay)
+                self.scheduleRetryLoad(after: delay)
+
+                #if DEBUG
+                print("OrbitAds: interstitial failed (attempt \(self.consecutiveLoadFailures)): \(error.localizedDescription)")
                 #endif
             }
         }
@@ -731,25 +730,28 @@ final class OrbitAppOpenAdManager: NSObject, FullScreenContentDelegate {
         }
 
         isLoadingAppOpen = true
-        AppOpenAd.load(
-            with: OrbitAdConfig.appOpenAdUnitID,
-            request: Request()
-        ) { [weak self] ad, error in
+        Task { @MainActor [weak self] in
             guard let self else { return }
-            Task { @MainActor in
-                self.isLoadingAppOpen = false
-                if let error {
-                    #if DEBUG
-                    print("OrbitAds: app open failed: \(error.localizedDescription)")
-                    #endif
-                    return
-                }
 
+            do {
+                let ad = try await AppOpenAd.load(
+                    with: OrbitAdConfig.appOpenAdUnitID,
+                    request: Request()
+                )
+
+                self.isLoadingAppOpen = false
                 self.appOpenAd = ad
                 self.loadDate = Date()
                 self.appOpenAd?.fullScreenContentDelegate = self
+
                 #if DEBUG
                 print("OrbitAds: app open loaded (\(OrbitAdConfig.appOpenAdUnitID))")
+                #endif
+            } catch {
+                self.isLoadingAppOpen = false
+
+                #if DEBUG
+                print("OrbitAds: app open failed: \(error.localizedDescription)")
                 #endif
             }
         }
