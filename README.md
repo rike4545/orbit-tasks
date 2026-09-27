@@ -4,8 +4,10 @@ Orbit Tasks is a SwiftUI productivity app focused on fast task capture, planning
 
 ## Project shape
 
-- **Platform:** iPhone / iOS
+- **Platform:** iPhone / iOS 26.2+ (developed and validated with the iOS 27 SDK)
 - **UI:** SwiftUI
+- **Language mode:** Swift 6
+- **Primary toolchain:** Xcode 27 / iOS 27 SDK
 - **Dependency management:** Swift Package Manager through the Xcode project
 - **Current external package:** Google Mobile Ads
 - **Tests:** Swift Testing unit tests plus an XCUITest target
@@ -25,7 +27,7 @@ xcodebuild   -project "Orbit Tasks.xcodeproj"   -scheme "Orbit Tasks"   -sdk iph
 
 This repository is configured to maintain itself conservatively:
 
-1. **CI** builds the app and runs the unit tests for every pull request and every push to `main`.
+1. **CI** builds and tests the app with Xcode 27 / the iOS 27 SDK for every pull request and every push to `main`, while also compiling an Xcode 26.6 compatibility lane.
 2. **Dependabot** checks SwiftPM and GitHub Actions dependencies weekly.
 3. Dependency automation is intentionally limited to **patch releases**.
 4. A Dependabot patch PR is merged automatically only after CI succeeds and only when its changed files are limited to known dependency/workflow files.
@@ -43,3 +45,10 @@ The next high-value engineering areas are:
 - Add accessibility assertions and localization coverage to CI.
 - Add performance baselines for task-list rendering and attachment indexing.
 - Introduce release validation for privacy strings, entitlements, App Store metadata, and dependency license changes.
+
+
+## iOS 27 modernization
+
+Orbit Tasks uses Xcode 27 as its primary development baseline while retaining iOS 26.2 as the deployment target. This follows the compatibility-first approach of adopting the latest SDK and Swift language mode without raising the minimum OS solely for toolchain changes.
+
+The project metadata and shared scheme are marked for Xcode 27, all targets compile in Swift 6 language mode, CI treats Xcode 27 as a required build-and-test gate, and the weekly autonomous maintenance job validates its changes with Xcode 27 before merging.
