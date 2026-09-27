@@ -528,9 +528,6 @@ enum NaturalLanguageDateParser {
         if let region = locale.region?.identifier, !region.isEmpty {
             return region.uppercased()
         }
-        if let region = locale.regionCode, !region.isEmpty {
-            return region.uppercased()
-        }
         let pieces = locale.identifier.split(separator: "_")
         if pieces.count >= 2 {
             return String(pieces[1]).uppercased()
