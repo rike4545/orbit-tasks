@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   format-validate-and-merge:
-    runs-on: macos-26
+    runs-on: xcode-27
     timeout-minutes: 40
 
     steps:
@@ -25,8 +25,8 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Select Xcode 26.6
-        run: sudo xcode-select -s /Applications/Xcode_26.6.app/Contents/Developer
+      - name: Select Xcode 27
+        run: sudo xcode-select -s /Applications/Xcode_27.app/Contents/Developer
 
       - name: Configure Git
         run: |
